@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.color_game.FinalActivity">
+
+    <TextView
+        android:id="@+id/YourScore"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Your Score : "
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="26dp"
+        />
+    <TextView
+        android:id="@+id/Score"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/YourScore"
+        android:textSize="26dp"
+        />
+    <TextView
+        android:id="@+id/YourBestScore"
+        android:layout_marginTop="30dp"
+        android:text="Best Score : "
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:layout_below="@+id/YourScore"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:id="@+id/bestScore"
+        android:layout_width="100dp"
+        android:layout_toRightOf="@+id/YourBestScore"
+        android:layout_below="@+id/YourScore"
+        android:layout_marginTop="30dp"
+        android:textSize="26dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/finalButton"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="Ok"
+        android:textSize="30dp"
+        android:layout_centerInParent="true"
+        />
+    </RelativeLayout>
